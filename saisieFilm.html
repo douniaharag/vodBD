@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Ajouter</title>
+		<meta charset="utf-8">
+		<link href="style/vod.css" rel="stylesheet" type="text/css">
+        <link href="style/ajouter.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="onglets">
+			<nav>
+				<ul>
+                    <li><a href="vod.html">Accueil</a></li>
+					<li><a href= "consulterFilms.php" >Consulter</a></li>
+					<li><a href=  "saisieTitreRecherche.html">Rechercher</a></li>
+					<li><a href=  "saisieFilm.html">Ajouter</a></li>
+					<li><a href= "saisieTitreSuppression.html">Supprimer</a></li>	
+            
+				</ul>
+			</nav>
+		</div>
+        
+  <div class="ajouter">      
+        <form action="ajouterFilm.php" method="POST">
+            <h1>Ajouter un film </h1>
+            <label> Titre du film : </label>
+            <input type="text" name="titre" placeholder="Saisir le titre du film" />
+            <br>
+             <label> Année du film : </label>
+            <input type="year" name="année" pattern="[0-9]{4}" size="4" maxlength="4" />
+            <br>
+             <label> Réalisateur du film : </label>
+            <input type="text" name="réalisateur" placeholder="Saisir le réalisateur du film" />
+            <input type="submit" value="Ajouter">
+        </form>
+        </div>
+	</body>
+</html>

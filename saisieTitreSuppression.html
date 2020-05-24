@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Supprimer</title>
+		<meta charset="utf-8">
+		<link href="style/vod.css" rel="stylesheet" type="text/css">
+        <link href="style/supprimer.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="onglets">
+			<nav>
+				<ul>
+                    <li><a href="vod.html">Accueil</a></li>
+					<li><a href= "consulterFilms.php" >Consulter</a></li>
+					<li><a href=  "saisieTitreRecherche.html">Rechercher</a></li>
+					<li><a href=  "saisieFilm.html">Ajouter</a></li>
+					<li><a href= "saisieTitreSuppression.html">Supprimer</a></li>	
+            
+				</ul>
+			</nav>
+		</div>
+        
+<div class="suppression">
+			<form action="supprimerFilm.php" method="POST">
+				<h1>Suppression de produit</h1>
+				<label >Titre du film : </label>
+				<input type="text" name="titre" placeholder="Titre du film à supprimer">
+					
+				<input type="submit" name="suppr" value="Supprimer">
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+.suppression{
+	width: 75%;
+	 margin-left: auto;
+    margin-right: auto;
+	margin-top: 2%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Snell Roundhand, cursive ;
+    font-size: 40px;
+}
+
+label {
+    font-size: 25px;
+    font-family: Courier, monospace;
+    
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    padding-bottom: 10px;
+    margin: 8px 0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+
+input[type=submit]{
+	width: 70%;
+	padding: 14px 20px;
+	margin: 10px 15%;
+	border: none;
+	border-radius: 25px;
+	background-color: red;
+}
+
+h1 {
+    text-align: center;
+    font-family: Snell Roundhand, cursive ;
+    
+}
